@@ -1,0 +1,48 @@
+body {
+    font-family: var(--mainFont);
+}
+
+.header {
+
+    padding: 57px 0px;
+}
+
+.header ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 36px;
+}
+ .list  a{
+color: var(--textHeader);
+}
+.header .active{
+color: var(--primary);
+}
+.bar{
+    display: none;
+}
+.searh form{
+    border: 1px solid #E7E6EF;
+    border-radius: 4px;
+   
+}
+.searh  input{
+    border: none;
+    outline: none;
+     padding: 0px 120px 0px 0px  ;
+}
+.searh button{
+       border: none;
+    outline: none; 
+    background-color: var(--primary);
+    padding: 8px;
+}
+
+@media screen and (max-width:1149px)  {
+ .bar{
+    display: block;
+}
+ .list,.searh{
+    display: none;
+ }
+}

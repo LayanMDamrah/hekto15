@@ -14,34 +14,45 @@ ul {
 
 :root {
     --primary: #FB2E86;
-    --mainFont: " Lato", sans-serif;
-    --sucsses:#08D15F;
-    --textHeader:#0D0E43;
+    --mainFont: "Lato", sans-serif;
+    --sucsses: #08D15F;
+    --textHeader: #0D0E43;
 
 }
 
 .btn {
     border: none;
-    outline: border;
+    outline: none;
     color: white;
-    padding: 16px 40px  ;
+    padding: 16px 40px;
     border-radius: 2px;
 }
-.btn-primary{
+
+.btn-primary {
     background-color: var(--primary);
 }
-.btn-sucsess{
+
+.btn-sucsess {
     background-color: var(--sucsses);
 }
-.row{
+
+.row {
     display: flex;
-     flex-wrap: wrap;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 }
 
-.contaner{
+.contaner {
     width: calc(100% - 320px);
     margin: auto;
 
+}
+.d-flex{
+    display: flex;
+    align-items: start;
+}
+
+.flex-direction{
+    flex-direction: column;
 }

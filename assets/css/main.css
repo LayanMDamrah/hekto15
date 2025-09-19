@@ -3,7 +3,6 @@ body {
 }
 
 .header {
-
     padding: 57px 0px;
 }
 
@@ -13,75 +12,134 @@ body {
     align-items: center;
     gap: 36px;
 }
- .list  a{
-color: var(--textHeader);
+
+.list a {
+    color: var(--textHeader);
 }
-.header .active{
-color: var(--primary);
+
+.header .active {
+    color: var(--primary);
 }
-.bar{
+
+.bar {
     display: none;
 }
-.searh form{
+
+.searh form {
     border: 1px solid #E7E6EF;
     border-radius: 4px;
-   
 }
-.searh  input{
-     background-color: white;
+
+.searh input {
+    background-color: white;
     border: none;
     outline: none;
     padding: 0px 100px 0px 20px;
-   
 }
-.searh button{
-       border: none;
-    outline: none; 
+
+.searh button {
+    border: none;
+    outline: none;
     background-color: var(--primary);
     padding: 8px;
 }
 
-.text-whitee .signup{
+.text-whitee .signup {
     font-size: 26px;
 }
-.text-white{
+
+.text-white {
     color: white;
 }
 
 @media screen and (max-width:1149px)  {
- .bar{
-    display: block;
-}
- .list,.searh{
-    display: none;
- }
+    .bar {
+        display: block;
+    }
+
+    .header .list,
+    .header .searh {
+        display: none;
+    }
 }
 
-.footer{
+.footer {
     background-color: #EEEFFB;
     padding: 50px 0px;
 }
-.footer a,.addres-info {
+
+.footer .row {
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.footer .addres-info,
+address {
+    margin: 10px 0px;
+}
+
+.footer a,
+.addres-info {
     color: #8A8FB9;
 }
 
-.footer .footer-item{
-    align-items: start;
+.footer .left-side {
+    gap: 35px;
+    width: calc((100% - 30px) / 2);
 }
 
-.footer .left-side{
-    gap: 14px;
-    align-items: start;
+.footer .right-side {
+    width: calc((100% - 30px) / 2);
+ 
 }
-.footer .right-side{
-    width: 60%;
+
+.footer .right-side .row {
+    gap: 35px;
+    align-items: flex-start;
 }
-.gap1{
+
+.footer .footer-item {
+    width: calc((100% - 70px) / 3);
+}
+
+.gap1 {
     gap: 10px;
 }
-.gap2{
+
+.gap2 {
     gap: 23px;
 }
-.gap3{
+
+.gap3 {
     gap: 46px;
+}
+
+@media screen and (max-width: 992px) {
+    .footer .left-side,
+    .footer .right-side {
+        width:100%;
+            }
+
+}
+
+@media screen and (max-width: 576px) {
+
+    
+    .footer  {
+ 
+        text-align: center;         
+    }
+   .d-flex  {
+ 
+        align-items: center;         
+    }
+    .footer .left-side,
+    .footer .right-side,
+    .footer .footer-item {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+
+   
 }

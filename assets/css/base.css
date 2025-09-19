@@ -40,13 +40,26 @@ ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items:start ;
+    align-items:center ;
 }
 
 .contaner {
     width: calc(100% - 320px);
     margin: auto;
 
+}
+
+@media screen and (max-width:1400px) {
+   .contaner {
+    width: calc(100% - 200px);}
+}
+@media screen and (max-width:992px) {
+   .contaner {
+    width: calc(100% - 100px);}
+}
+@media screen and (max-width:576px) {
+   .contaner {
+    width: calc(100% - 40px);}
 }
 .d-flex{
     display: flex;

@@ -52,7 +52,7 @@ body {
     color: white;
 }
 
-@media screen and (max-width:1149px)  {
+@media screen and (max-width:1149px) {
     .bar {
         display: block;
     }
@@ -63,34 +63,62 @@ body {
     }
 }
 
+/* newsLetter */
+.newsLater {
+    background-image: url('../images/basic/newsLetter.webp');
+    padding: 180px 0px;
+    text-align: center;
+}
+.newsLater h2{
+    padding-bottom: 40px;
+    color: #151875;
+    font-size: 35px;
+}
+.shop-btn{
+    transition: all .6s;
+}
+
+.shop-btn:hover{
+    background-color: #151875;
+}
+
+
+
+
+
 /* clients */
-.clients{
+.clients {
     padding: 50px 0px;
 }
-.clients .row{
+
+.clients .row {
     flex-wrap: nowrap;
     gap: 15px;
     overflow: auto;
 }
-.clients .logo{
+
+.clients .logo {
     width: calc((100% - 75px) / 6);
 }
-.clients img{
-width: 230px;
-height: 100px;
-}
-@media screen and (max-width:900px) {
-    .clients .logo{
-    width: calc((100% - 45px) / 3);
-}
-}
-@media screen and (max-width:565px) {
-    .clients .logo{
-    width: calc((100% - 30px) / 2);
-}
+
+.clients img {
+    width: 230px;
+    height: 100px;
 }
 
- /* footer */
+@media screen and (max-width:900px) {
+    .clients .logo {
+        width: calc((100% - 45px) / 3);
+    }
+}
+
+@media screen and (max-width:565px) {
+    .clients .logo {
+        width: calc((100% - 30px) / 2);
+    }
+}
+
+/* footer */
 .footer {
     background-color: #EEEFFB;
     padding: 50px 0px;
@@ -118,7 +146,7 @@ address {
 
 .footer .right-side {
     width: calc((100% - 30px) / 2);
- 
+
 }
 
 .footer .right-side .row {
@@ -143,24 +171,27 @@ address {
 }
 
 @media screen and (max-width: 992px) {
+
     .footer .left-side,
     .footer .right-side {
-        width:100%;
-            }
+        width: 100%;
+    }
 
 }
 
 @media screen and (max-width: 576px) {
 
-    
-    .footer  {
- 
-        text-align: center;         
+
+    .footer {
+
+        text-align: center;
     }
-   .d-flex  {
- 
-        align-items: center;         
+
+    .d-flex {
+
+        align-items: center;
     }
+
     .footer .left-side,
     .footer .right-side,
     .footer .footer-item {
@@ -169,5 +200,5 @@ address {
     }
 
 
-   
+
 }

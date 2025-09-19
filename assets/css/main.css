@@ -63,6 +63,34 @@ body {
     }
 }
 
+/* clients */
+.clients{
+    padding: 50px 0px;
+}
+.clients .row{
+    flex-wrap: nowrap;
+    gap: 15px;
+    overflow: auto;
+}
+.clients .logo{
+    width: calc((100% - 75px) / 6);
+}
+.clients img{
+width: 230px;
+height: 100px;
+}
+@media screen and (max-width:900px) {
+    .clients .logo{
+    width: calc((100% - 45px) / 3);
+}
+}
+@media screen and (max-width:565px) {
+    .clients .logo{
+    width: calc((100% - 30px) / 2);
+}
+}
+
+ /* footer */
 .footer {
     background-color: #EEEFFB;
     padding: 50px 0px;

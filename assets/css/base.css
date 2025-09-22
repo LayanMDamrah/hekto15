@@ -19,6 +19,9 @@ ul {
     --textHeader: #0D0E43;
 
 }
+.primary{
+    color: var(--primary);
+}
 
 .btn {
     border: none;

@@ -511,7 +511,7 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
-  
+
 }
 
 .trending-card {
@@ -527,17 +527,18 @@ body {
 }
 
 .trending-img img {
-    width: 100%;        
-    height: 200px;        
-    object-fit: cover;   
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
     border-radius: 8px 8px 0 0;
 }
 
-.trending-img  {
-         padding:10px 28px;
+.trending-img {
+    padding: 10px 28px;
 
     background-color: #F5F6F8;
 }
+
 .trending-info {
     display: flex;
     flex-direction: column;
@@ -546,7 +547,7 @@ body {
     gap: 10px;
     width: 100%;
     padding: 10px 50px;
- 
+
 }
 
 
@@ -625,6 +626,109 @@ body {
         width: calc((100% - 30px) / 2);
     }
 }
+
+/* Leatest Blog */
+.leatest-blog {
+    padding: 50px;
+}
+
+.blog-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex-grow: 1;
+}
+
+
+.leatest-blog h2 {
+    text-align: center;
+    font-size: 40px;
+    color: #151875;
+    margin-bottom: 30px;
+}
+
+.blog-card {
+    width: 100%;
+    height: 370px;
+    max-width: 360px;
+    background-color: #F7F7F7;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    transition: all 0.3s;
+}
+
+
+.blog-card:hover h3,
+.blog-card:hover .dach {
+    color: var(--primary);
+}
+
+
+.blog-img {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 8px 8px 0 0;
+}
+
+.blog-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.blog-header {
+    display: flex;
+    justify-content: start;
+    margin: 10px 0;
+    gap: 15px;
+    font-weight: 600;
+    color: #151875;
+    padding: 0px 15px;
+}
+
+.blog-content p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #555;
+    padding: 0 20px 5px;
+
+}
+
+
+.leatest-blog h2 {
+    display: flex;
+    flex-direction: column;
+    font-size: 40px;
+    gap: 10px;
+    align-items: center;
+    color: #151875;
+    padding: 20px;
+}
+
+.leatest-blog h3 {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    gap: 10px;
+    align-items: start;
+    color: #151875;
+    padding: 10px;
+
+}
+
+.dach {
+    padding: 0 20px 5px;
+    color: #151875;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    text-decoration-thickness: 2px;
+}
+
 
 /* footer */
 .footer {

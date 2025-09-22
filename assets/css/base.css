@@ -75,3 +75,10 @@ ul {
 .text-center{
     text-align: center;
 }
+.ceter-item{
+    align-items: center;
+}
+ 
+.botom-position{
+    bottom: 50%;
+}

@@ -463,15 +463,16 @@ body {
     background-color: #ffff;
     padding: 10px 20px;
 }
+
 .cart-detail {
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
     align-items: center;
     gap: 27px;
     text-align: center;
 }
 
-.what-shopex-offer h2  {
+.what-shopex-offer h2 {
     display: flex;
     flex-direction: column;
     font-size: 40px;
@@ -480,15 +481,93 @@ body {
     color: #151875;
     padding: 15px;
 }
-.cart h1{
-        color: #151875;
+
+.cart h1 {
+    color: #151875;
 
 }
-.cart p{
+
+.cart p {
     color: #1a0b5b6c;
 }
 
+/* Trending Products */
+.trending-products {
+    padding: 50px;
+}
 
+.trending-products h2 {
+    display: flex;
+    flex-direction: column;
+    font-size: 40px;
+    gap: 10px;
+    align-items: center;
+    color: #151875;
+    padding: 20px;
+}
+
+.trending-products .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  
+}
+
+.trending-card {
+    flex: 1 1 280px;
+    max-width: 360px;
+    height: 350px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.trending-img img {
+    width: 100%;        
+    height: 200px;        
+    object-fit: cover;   
+    border-radius: 8px 8px 0 0;
+}
+
+.trending-img  {
+         padding:10px 28px;
+
+    background-color: #F5F6F8;
+}
+.trending-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    padding: 10px 50px;
+ 
+}
+
+
+
+.trending-prices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.trending-first-price {
+    color: #151875;
+    font-weight: 600;
+}
+
+.trending-second-price {
+    color: #15187560;
+    text-decoration: line-through;
+    font-weight: 400;
+}
 
 /* newsLetter */
 .newsLater {

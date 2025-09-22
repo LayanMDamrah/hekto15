@@ -363,24 +363,24 @@ body {
 }
 
 .leatest-products .row {
-    display: flex;         
-    flex-wrap: wrap;       
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    gap: 30px;             
+    gap: 30px;
 }
 
 .leatest-products .product {
     position: relative;
-    flex: 1 1 280px;      
+    flex: 1 1 280px;
     max-width: 360px;
     margin: 15px;
     height: 300px;
     border-radius: 8px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.25);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
     display: flex;
     flex-direction: column;
-    justify-content: center; 
-    align-items: center;    
+    justify-content: center;
+    align-items: center;
     background-color: #F7F7F7;
     padding: 0px 20px;
 }
@@ -402,6 +402,7 @@ body {
     transition: 0.3s;
     display: none;
 }
+
 .leatest-products .product:hover .icons .icons-details {
     display: flex;
 }
@@ -409,13 +410,13 @@ body {
 
 .product-row-info {
     display: flex;
-    justify-content: space-between; 
-    align-items: center;           
+    justify-content: space-between;
+    align-items: center;
     width: 100%;
     padding: 10px;
-    margin-top: auto;      
+    margin-top: auto;
     box-sizing: border-box;
-    background-color: transparent; 
+    background-color: transparent;
     color: #151875;
 }
 
@@ -441,6 +442,52 @@ body {
     color: red;
     text-decoration: line-through;
 }
+
+/* What Shopex Offer */
+.what-shopex-offer {
+    padding: 50px;
+}
+
+.cart {
+    position: relative;
+    flex: 1 1 280px;
+    max-width: 360px;
+    margin: 15px;
+    height: 300px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffff;
+    padding: 10px 20px;
+}
+.cart-detail {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    gap: 27px;
+    text-align: center;
+}
+
+.what-shopex-offer h2  {
+    display: flex;
+    flex-direction: column;
+    font-size: 40px;
+    gap: 10px;
+    align-items: center;
+    color: #151875;
+    padding: 15px;
+}
+.cart h1{
+        color: #151875;
+
+}
+.cart p{
+    color: #1a0b5b6c;
+}
+
 
 
 /* newsLetter */
